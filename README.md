@@ -2,7 +2,7 @@
 
 > 盛年不重来，一日难再晨。
 
-博客已迁移至 [LearnData](https://github.com/rockbenben/LearnData)，以 VuePress 静态网站形式发布，避免 Markdown 转 HTML 总出现格式 bug。
+博客已迁移至 [DiyDream](https://diydream.yanxin.ga/)，以 VuePress 静态网站形式发布，避免 Markdown 转 HTML 总出现格式 bug。
 
 如果需要 Markdown 同步 WordPress，代码依旧可用，后续更新可参考 [WordPressXMLRPCTools](https://github.com/zhaoolee/WordPressXMLRPCTools)。
 
