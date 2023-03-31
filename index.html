@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>互联网小白</title>
+  <meta name="description" content="互联网小白的博客管理页面" />
+  <meta name="keywords" content="自我提升,效率,开源工具" />
+  <link rel="stylesheet" href="https://npm-cdn.oss-cn-shanghai.aliyuncs.com/docsify-themeable/dist/css/theme-simple.css">
+  <link rel="stylesheet" href="https://npm-cdn.oss-cn-shanghai.aliyuncs.com/docsify-gifcontrol/dist/docsify-gifcontrol.css">
+  <link rel="stylesheet" href="https://npm-cdn.oss-cn-shanghai.aliyuncs.com/docsify-toc/dist/toc.css">
+  <style>
+    :root {
+      /* Reduce the font size */
+      --base-font-size: 14px;
+      /* Change the theme color hue */
+      /*--theme-color: #42b983;*/
+      --navbar-root-text-decoration-color--active: #125020;
+      --sidebar-nav-link-font-weight--active: thick;
+      --sidebar-nav-link-font-weight--hover: thick
+    }
+
+    .anchor {
+      font-weight: bold;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
+    }
+
+    .app-name {
+      width: 150px;
+    }
+
+    section.cover h1 {
+      margin: 1.5rem 0 1.5rem;
+    }
+
+    section.cover p {
+      text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
+    }
+  </style>
+</head>
+
+<body class="body--ready">
+  <div id="app">🏃‍🏃‍🏃‍💨 加载中...</div>
+  <script>
+    window.$docsify = {
+      name: '互联网小白',//文档标题，会显示在侧边栏顶部
+      homepage: 'README.md', // 首页，默认是 README.md
+      //coverpage: 'coverpage.md', // 开启渲染封面
+      loadNavbar: true,   // 配置导航，右上角的小下拉图标
+      loadSidebar: true,  // 加载自定义侧边栏，默认为 _siderbar.md
+      //notFoundPage: 'README.md', // 404
+      //logo: '/assets/images/logo.svg',
+      //repo: '',
+      auto2top: true,     // 切换页面后是否自动跳转到页面顶部
+      //autoHeader: true
+      nameLink: '',
+      maxLevel: 4,
+      subMaxLevel: 3,
+      formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}', // 显示文档更新日期
+      search: 'auto', // 默认值
+      // 搜索完整配置参数
+      search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto',
+        placeholder: '🔍 搜索',
+        noData: '😒 找不到结果，请缩短搜索词',
+
+        // 搜索标题的最大层级，1 - 6
+        depth: 2,
+
+        hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+      },
+      toc: {
+        scope: '.markdown-section',
+        headings: 'h1, h2, h3, h4, h5, h6',
+        title:  '',
+      },
+      pagination: {
+        previousText: 'PREVIOUS',
+        nextText: 'NEXT',
+        crossChapter: true
+      },
+      gifcontrol: {
+        mode: 'click'
+      }
+    }
+  </script>
+  <script src="https://npm-cdn.oss-cn-shanghai.aliyuncs.com/docsify-themeable/dist/js/docsify-themeable.min.js"></script>
+  <script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-y/docsify/4.12.2/docsify.min.js"></script>
+  <script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-y/docsify/4.12.2/plugins/search.min.js"></script>
+  <script src="https://npm-cdn.oss-cn-shanghai.aliyuncs.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="https://npm-cdn.oss-cn-shanghai.aliyuncs.com/docsify-gifcontrol/dist/docsify-gifcontrol.js"></script>
+  <script src="https://npm-cdn.oss-cn-shanghai.aliyuncs.com/docsify-toc/dist/toc.js"></script>
+
+  <script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-y/docsify/4.12.2/plugins/zoom-image.min.js"></script>
+  <script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-y/docsify-copy-code/2.1.1/docsify-copy-code.min.js" type="application/javascript"></script>
+
+  <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-y/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/instant.page/5.1.0/instantpage.min.js"></script>
+</body>
+
+</html>
